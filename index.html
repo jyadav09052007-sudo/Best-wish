@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Tannu! ✨</title>
+  <style>
+    :root {
+      --primary: #ff6b81;
+      --secondary: #a29bfe;
+      --accent: #ffeaa7;
+      --bg-dark: #090a0f;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      overflow-x: hidden;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+
+    /* Cosmic Background & Floating Planets */
+    .universe {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+      overflow: hidden;
+    }
+
+    .planet {
+      position: absolute;
+      border-radius: 50%;
+      box-shadow: inset -10px -10px 20px rgba(0,0,0,0.6), 0 0 15px rgba(255,255,255,0.2);
+    }
+
+    .planet-1 {
+      width: 120px;
+      height: 120px;
+      background: linear-gradient(45deg, #ff7675, #6c5ce7);
+      top: 10%;
+      left: 8%;
+      animation: float 12s ease-in-out infinite alternate;
+    }
+
+    .planet-2 {
+      width: 80px;
+      height:
